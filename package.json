@@ -1,0 +1,23 @@
+{
+  "name": "portfoliofrontend",
+  "version": "1.0.0",
+  "description": "a ver si sale",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server -p 8436"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisandro-dev/PortfolioFrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisandro-dev/PortfolioFrontEnd/issues"
+  },
+  "homepage": "https://github.com/Lisandro-dev/PortfolioFrontEnd#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "http-server": "^14.1.1"
+  }
+}
