@@ -1,3 +1,26 @@
 body{
     background-color: gray;
 };
+.icono{
+    color: white;
+}
+.list-group{
+    
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color:rgb(221, 89, 41);
+}
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color: blue;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color:violet;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: blue;
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: darkblue;
+}
