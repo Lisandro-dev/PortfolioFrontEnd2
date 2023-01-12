@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio: Lisandro Lafuente</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/5cd8884671.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Barra de navecación-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/imagenes/APLogo-20-20a.png" alt="Logo" width="20%" height="" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <ul  class="list-group list-group-horizontal">
+        <a href="https://www.instagram.com/lglafuente/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl" ></i> </li></a>
+        <a href="https://www.facebook.com/lglafuente/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl" href=""></i></li> </a>
+        <a href="https://github.com/Lisandro-dev" target="_blank"><li class="list-group-item"><i class="fa-brands fa-github fa-2xl" href=""></i></li></a>
+        <a href="https://www.linkedin.com/in/lisandro-lafuente/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl" href=""></i></li> </a>
+        <li class="list-group-item">
+           <!-- Button trigger modal (saque el button y agregue data-bs-toggle y data-bs-target al icono para que cumpla esa función)-->
+          <i class="fa-solid fa-user fa-2xl" data-bs-toggle="modal" data-bs-target="#ModalLogin"></i>     
+        </li> 
+      </ul>    
+  </nav>
+<!--BANNER-->
+<section class="banner">
+  <h3 class="text-center title-banner padding10">¡Bienvenido!</h3>
+  <h1 class="text-center title-banner"> Soy Lisandro Lafuente,</h1>
+  <h3 class="text-center title-banner">Desarrolador Full Stack Jr.</h3>
+</section>
+<!--Presentacion-->
+<section class="presentacion">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-3">
+        <div class="" style="width: 18rem;">
+        <img src="/assets/imagenes/sada.png" class="card-img-top rounded-circle perfilf" alt="foto de perfil">
+        <div class="card-body">
+          <h2 class="card-title nombre">Lisandro Lafuente</h2>
+        </div>
+      </div>
+      </div>
+      <div class="col-9">
+        <h1 class="titulo-presentacion">Desarrollador Full Stack Jr.</h1>
+        <h4 class="texto-presentacion">¡Hola! Mi nombre es Lisandro, estudiante de la carrera de Analista de Sistemas, con muchas ganas de aprender nuevas tecnologías.
+            Me gusta la programación, lo cual me llevo a estudiar varios cursos, y actualmente, la mencionada carrera.
+            Soy una persona activa, autodidacta, y aporto soluciones en el ámbito laboral en el que me desarrollo de manera práctica.
+            Gracias por visitar mi perfil!
+        </h4>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="ModalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div>
+    <div>
+    <img src="/imagenes/banner.jpg" alt="">
+    </div>
+    
+</div>
+  <script src="js/app.js"></script>
+  <script src="/bootstrap/js/bootstrap.min.js"> </script>
+</body>
+</html>

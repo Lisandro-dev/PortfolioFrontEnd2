@@ -1,0 +1,79 @@
+body{
+    background-color: gray;
+};
+.icono{
+    color: rgb(223, 44, 44);
+}
+.list-group{
+    
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+    --bs-list-group-color: white;
+    
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color:#3f729b;
+}
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color: #3b5998;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color:#171515;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: #0e76a8;
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: darkblue;
+}
+/*baner*/
+section.banner{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)), url(/assets/imagenes/nuevo.jpg);
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    -msn-background-size:cover;
+}
+h3.padding10{
+    padding-top: 10%;
+   
+}
+h3.title-banner{
+    font-size: 2rem;
+}
+h1.title-banner{
+    font-size: 3rem;
+}
+/*Perfil*/
+.presentacion{
+    background-color: #A79E8B;
+    margin-bottom: 1.5rem;
+    height: 20.5rem;
+}
+.perfilf{
+    
+  position: relative;
+  margin-top: -2rem;
+  
+}
+.texto-presentacion{
+    
+    padding: 1rem;
+    margin-top: -1rem;
+    text-align: justify;
+    margin-right: 2rem;
+}
+.nombre{
+    margin-top: 1rem;
+}
+.titulo-presentacion{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    text-align: left;
+    text-decoration: underline;
+}
