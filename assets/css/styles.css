@@ -1,8 +1,13 @@
 body{
     background-color: gray;
 };
+
 .icono{
     color: rgb(223, 44, 44);
+}
+.margin-bt{
+    margin-bottom: 2rem;
+    margin-left:15px;
 }
 .list-group{
     
@@ -27,9 +32,9 @@ i.fa-solid.fa-user.fa-2xl:hover{
     color: darkblue;
 }
 /*baner*/
-section.banner{
+.banner{
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)), url(/assets/imagenes/nuevo.jpg);
-    background-size: cover;
+    background-size: auto;
     position: relative;
     height: 90vh;
     width: 100%;
@@ -76,4 +81,22 @@ h1.title-banner{
     padding: 1rem;
     text-align: left;
     text-decoration: underline;
+}
+/*experiencia*/
+h2.titulo-exp{
+    margin-left: 25px;
+}
+.img-experiencia{
+    margin-top:2rem;
+}
+.titulo-experiencia{
+    margin-top: 0.5rem;
+    
+    padding: 1rem;
+    text-align: left;
+    text-decoration: underline;
+}
+.Experiencia{
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
