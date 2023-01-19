@@ -1,5 +1,6 @@
 body{
-    background-color: gray;
+    background: rgb(218,213,203);
+background: linear-gradient(0deg, rgba(218,213,203,1) 0%, rgba(147,143,135,1) 50%, rgba(144,137,124,1) 100%);
 };
 
 .icono{
@@ -8,6 +9,12 @@ body{
 .margin-bt{
     margin-bottom: 2rem;
     margin-left:15px;
+}
+.margin-lt{
+    margin-left: 15px;
+}
+.margin-tp{
+    margin-top:2rem;
 }
 .list-group{
     
@@ -56,7 +63,7 @@ h1.title-banner{
 }
 /*Perfil*/
 .presentacion{
-    background-color: #A79E8B;
+    
     margin-bottom: 1.5rem;
     height: 20.5rem;
 }
@@ -99,4 +106,31 @@ h2.titulo-exp{
 .Experiencia{
     padding-left: 0rem;
     padding-right: 0rem;
+    
+    
+}
+/*Educacion*/
+.Eduacion{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+/*skills*/
+.card-skill{
+  width: 8rem;
+  height: 8rem;
+}
+.barra{
+  height: 20px;
+  width: 100%;
+}
+.arribayabajo2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/*Proyectos*/
+.btn-color{
+    background-color: white;
+    height: 2rem;
+    width: auto;
+    
 }

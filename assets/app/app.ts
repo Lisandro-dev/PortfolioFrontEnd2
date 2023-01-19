@@ -11,3 +11,4 @@ let lista:[string,number]=["corsa",1998,];
 console.log(lista);
 let Cualquiera:any=[2,"algo",false,23];
 console.log(Cualquiera[2]);
+console.log("quiero que funcione");
